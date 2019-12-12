@@ -1,0 +1,230 @@
+.navbar {
+    position: fixed;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding: 0.0rem 1rem;
+    width: 100%;
+}
+
+.jumbotron {
+    padding: 2rem 1rem;
+    margin-bottom: 2rem;
+    background-color: #eeede6;
+    border-radius: 0.3rem;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    height: auto;
+}
+
+.container-fluid {
+    width: 70%;
+    padding-right: 50px;
+    padding-left: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 170px;
+}
+.container-fluid-div {
+    width: 100%;
+    padding-right: 50px;
+    padding-left: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 10px;
+}
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 150px;
+}
+
+.container-fluid-div-heading {
+    width: 100%;
+    padding-right: 40px;
+    padding-left: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 150px;
+    color: rgb(189, 49, 49);
+    font-family: 'Roboto', sans-serif;
+}
+  
+
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500');
+
+
+  /* The sidebar menu */
+
+body {
+    overflow-x: hidden;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+  }
+
+
+.sidenav header {
+    background-color: #0d4062;
+    font-size: 20px;
+    line-height: 52px;
+    text-align: center;
+    padding-bottom: 15px
+
+}
+  
+.sidenav {
+    left: 250px;
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    z-index: 1000;
+    top: 80px;
+    left: 0;
+    background-color: #0d4062;
+    overflow-x: hidden;
+    overflow-y: auto; 
+    padding-top: 20px;
+    /* overflow: hidden;
+    min-width: px;
+    padding-bottom: 60px; */
+}
+
+.content {
+    width: 100%;
+    position: relative;
+    margin-right: 0;
+}
+
+.sidenav header a {
+    color: #fff;
+    display: block;
+    text-decoration: none;
+}
+
+.sidenav header a:hover {
+    color: #fff;
+}
+  
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+}
+
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .nav a:hover {
+    background: none;
+    color
+    : #ECEFF1;
+}
+.sidenav .nav a{
+    background: none;
+    border-bottom: 1px solid #455A64;
+    color: #CFD8DC;
+    font-size: 18px;
+    padding: 20px 24px;
+
+}
+
+  
+.main {
+    margin-left: 160px; /* Same as the width of the sidenav */
+    font-size: 28px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 35px;}
+    .sidenav a {font-size: 18px;}
+}
+
+.box-container { /* thanks Mitchel! */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(6, 120px);
+    grid-gap: 1em;
+}
+
+.box-container > div { /* the child div to the .box-container will apply to all items */
+    background-color: grey;
+}
+
+.box-container > img {
+    top: 30px;
+    position: relative;
+    left: 55px;
+    display: box;
+    width: 60px;
+    height: 60px;
+}
+
+.another-box-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+
+}
+.another-box-container > div {
+    background-color: grey;
+    height: 550px;
+   
+}
+.another-box-container > img {
+    top: 120px;
+    left: 200px;
+    position: relative;
+    display: box;
+    width: 350px;
+    height: 300px;
+}
+
+.last-box-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+
+}
+.last-box-container > div {
+    background-color: grey;
+    height: 350px;
+   
+}
+.last-box-container > img {
+    top: 10px;
+    left: 10px;
+    position: relative;
+    display: box;
+    width: 350px;
+    height: 330px;
+}
+
+.inline-div {
+    display: block;
+    text-align: center;
+    padding-right: 100px;
+  }
+  
+  h1
+  {
+    display: inline-block;
+    text-align: center;
+  }
